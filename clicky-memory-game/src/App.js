@@ -1,3 +1,29 @@
+import React, { Component } from "react";
+import Navbar from "./components/Navbar.js"
+import Pictures from "./components/Pictures.js"
+
+class App extends Component {
+
+  state = {
+    score: 0,
+    topScore: 0,
+    clicked: false,
+    message: "",
+    image: pics
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
 import logo from './logo.svg';
 import './App.css';
 
