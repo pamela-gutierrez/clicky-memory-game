@@ -1,16 +1,57 @@
 import React, { Component } from "react";
-import Navbar from "./components/Navbar.js"
-import Pictures from "./components/Pictures.js"
+import Header from "./components/Header.js"
+import Thumbnails from "./components/Thumbnails.js"
+import pics from "./images/"
 
 class App extends Component {
-
+  // This is the starting "state" before anything has been clicked or changed.
   state = {
     score: 0,
     topScore: 0,
     clicked: false,
     message: "",
-    image: pics
+    images: pics
+  };
+
+  // This function will handle the onclicks and control functions once the images have been clicked. 
+  handleClick = (id, click) => {
+    const characters = this.state.images;
+    if (click) {
+      characters.forEach((image, index) => {
+        characters[index].click = false;
+      });
+      return this.setState({
+        images: characters.sort(() => Math.random() - 0.5),
+        message: "Avada Kedavra!",
+        count: 0
+      })
+    }
+
+    else {
+      characters.forEach((image, index) => {
+
+      })
+    }
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
