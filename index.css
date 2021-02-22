@@ -2,9 +2,17 @@ img {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    margin: 5px;
+    margin: 3px;
 }
 
 .hpRows {
     margin-top: 20px;
+}
+
+.col {
+    margin-bottom: 5px;
+}
+
+img :hover{
+  box-shadow: 2px black;
 }
