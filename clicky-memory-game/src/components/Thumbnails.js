@@ -1,10 +1,11 @@
 import React from "react";
-import "./style.css";
+
 
 function ImageThumb(props) {
     return (
-        <div class="row">
-            <div class="col">
+        <div className="row">
+            <div className="col-3">
+                {/* Where does the onclick go? */}
                 <img alt={props.name} src={props.image} class="img-thumbnail" />
             </div>
         </div>

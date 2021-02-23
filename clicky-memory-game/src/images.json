@@ -2,61 +2,61 @@
     {
         "id": 1,
         "name": "Harry Potter",
-        "image": "/images/arthurw.jpg"
+        "image": "https://unsplash.com/photos/H-Y7mdumq1w"
     },
     {
         "id": 2,
         "name": "Ron Weasley",
-        "image": "clicky-memory-game/src/images/arthurw.jpg"
+        "image": "/images/ronaldw.jpg"
     },
     {
         "id": 3,
         "name": "Hermione Granger",
-        "image": "clicky-memory-game/src/images/arthurw.jpg"
+        "image": "/images/hermioneg.jpg"
     },
     {
         "id": 4,
         "name": "Neville Longbottom",
-        "image": "clicky-memory-game/src/images/arthurw.jpg"
+        "image": "/images/nev.jpeg"
     },
     {
         "id": 5,
         "name": "Luna Lovegood",
-        "image": "clicky-memory-game/src/images/arthurw.jpg"
+        "image": "/images/luna.jpg"
     },
     {
         "id": 6,
         "name": "Arthur Weasley",
-        "image": "clicky-memory-game/src/images/arthurw.jpg"
+        "image": "/images/arthurw.jpg"
     },
     {
         "id": 7,
         "name": "Albus Dumbledore",
-        "image": "clicky-memory-game/src/images/arthurw.jpg"
+        "image": "/images/dumbledore.jpg"
     },
     {
         "id": 8,
         "name": "Dobby",
-        "image": "clicky-memory-game/src/images/arthurw.jpg"
+        "image": "/images/dobby.jpeg"
     },
     {
         "id": 9,
         "name": "Draco Malfoy",
-        "image": "clicky-memory-game/src/images/arthurw.jpg"
+        "image": "/images/arthurw.jpg"
     },
     {
         "id": 10,
         "name": "Minerva McGonagall",
-        "image": "clicky-memory-game/src/images/arthurw.jpg"
+        "image": "/images/McGonagall_(screenshot).jpg"
     },
     {
         "id": 11,
         "name": "Ginny Weasley",
-        "image": "clicky-memory-game/src/images/arthurw.jpg"
+        "image": "/images/ginny.jpg"
     },
     {
         "id": 12,
         "name": "Harry Potter",
-        "image": "clicky-memory-game/src/images/arthurw.jpg"
+        "image": "/images/arthurw.jpg"
     }
 ]
