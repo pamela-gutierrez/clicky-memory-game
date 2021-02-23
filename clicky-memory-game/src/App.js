@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "./components/Header.js"
 import ImageThumb from "./components/Thumbnails.js";
 import images from "./images.json";
-// import { Hermione, Neville } from "./images";
+
 
 
 
@@ -57,16 +57,15 @@ class App extends Component {
   // }
   render() {
     return (
-      <Wrapper>
+      <div>
         <Header />
         {this.state.images.map(images => (
-          <ImageThumb image={this.state.props} />
+          <ImageThumb
+          />
         ))}
-      </Wrapper>
-
+      </div>
     );
   }
-}
-
+};
 
 export default App;
