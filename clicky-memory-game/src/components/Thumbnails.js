@@ -10,12 +10,12 @@ function ImageThumb(props) {
         // </div>
 
         // TESTING STUFF 
-        <div className="row">
+        <div>
             <div className="col-3">
                 {/* Where does the onclick go? */}
-                <img alt={props.name} src={props.image} class="img-thumbnail" />
+                <img alt={props.name} src={props.image} className="img-thumbnail" />
             </div>
-        </div>
+        </div >
     );
 }
 
