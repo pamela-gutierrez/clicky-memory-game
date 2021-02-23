@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "./components/Header.js"
 import ImageThumb from "./components/Thumbnails.js";
-import pics from "./images.json";
+import images from "./images.json";
 // import { Hermione, Neville } from "./images";
 
 
@@ -18,14 +18,14 @@ import pics from "./images.json";
 
 
 class App extends Component {
-      state = {
-      score: 0,
-      topScore: 0,
-      clicked: false,
-      message: "",
-      images: pics
-    };
-  
+  state = {
+    score: 0,
+    topScore: 0,
+    clicked: false,
+    message: "",
+    images: images
+  };
+
   // This is the starting "state" before anything has been clicked or changed.
 
 
@@ -57,12 +57,16 @@ class App extends Component {
   // }
   render() {
     return (
-      <div>
+      <Wrapper>
         <Header />
-        <ImageThumb image={this.state.props} />
-      </div>
-    )
+        {this.state.images.map(images => (
+          <ImageThumb image={this.state.props} />
+        ))}
+      </Wrapper>
+
+    );
   }
-};
+}
+
 
 export default App;
