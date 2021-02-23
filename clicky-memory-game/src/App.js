@@ -18,16 +18,14 @@ import pics from "./images.json";
 
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
+      state = {
       score: 0,
       topScore: 0,
       clicked: false,
       message: "",
       images: pics
     };
-  }
+  
   // This is the starting "state" before anything has been clicked or changed.
 
 
@@ -65,6 +63,6 @@ class App extends Component {
       </div>
     )
   }
-}
+};
 
 export default App;
