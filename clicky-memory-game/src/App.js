@@ -54,14 +54,16 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <Header />
-        {this.state.images.map(images => (
-          <ImageThumb
-            name={images.name}
-            image={images.image}
-          />
-        ))}
+        <div className="row">
+          {this.state.images.map(images => (
+            <ImageThumb
+              name={images.name}
+              image={images.image}
+            />
+          ))}
+        </div>
       </div>
     );
   }
