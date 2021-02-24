@@ -38,6 +38,8 @@ class App extends Component {
       // If an image is clicked, sort the thumbnails. 
       return this.setState({
         images: places.sort(() => Math.random() - 0.5),
+        message: "Game over and you're stuck at home.",
+        score: 0
       })
     }
     // This is if the user gets it wrong (they have clicked on the same image twice)
@@ -45,9 +47,18 @@ class App extends Component {
       places.forEach((image, index) => {
         if (id === image.id) {
           places[index].clicked = false;
+          const newScore = this.state.score + 1;
+          // Not sure why this isn't working... 
+          // newTopScore = if the newScore is less than the current top score then the new score is the topScore.
+          const newTopScore = newScore > this.state.topScore ? newScore : this.state.topScore;
         }
+        // This is where things get a little sticky. 
         return this.setState({
           images: places.sort(() => Math.random() - 0.5),
+          message: "You guess correctly!",
+          // This doesn't render correctly so that's why it's commented out. 
+          // score: newScore,
+          // topScore: newTopScore,
         })
       })
     }
@@ -77,32 +88,30 @@ export default App;
 
 
 // INDIVIDUAL FUNCTIONS
+// firstClick = () => {
+//   this.setState({ this.state.count + 1 })
+// }
+
+// secondClick = () => {
+//   this.setState({
+//     clicked = true,
+//     // Resets score to 0.
+//     count = 0,
+//     // Send message that the game is over.
+//     message: "Game over and you're stuck at home."
+//   })
+// }
+
+// addToScore = () => {
+//   this.setState({ this.state.count + 1 })
+// }
 
 
-firstClick = () => {
-  this.setState({ this.state.count + 1 })
-}
+// // When game over, score will equal top score. 
 
-secondClick = () => {
-  this.setState({
-    clicked = true,
-    // Resets score to 0.
-    count = 0,
-    // Send message that the game is over.
-    message: "Game over and you're stuck at home."
-  })
-}
-
-addToScore = () => {
-  this.setState({ this.state.count + 1 })
-}
-
-
-// When game over, score will equal top score. 
-
-handleShuffle = () => {
-  const places = this.state.images;
-}
+// handleShuffle = () => {
+//   const places = this.state.images;
+// }
 
 // NOTES on the if statemenets. If it matches, I got it right, if it doesn't match, I got it wrong.
    // if (click === false)  = my score goes up
