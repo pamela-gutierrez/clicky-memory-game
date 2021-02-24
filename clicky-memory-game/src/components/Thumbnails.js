@@ -11,9 +11,9 @@ function ImageThumb(props) {
 
         // TESTING STUFF 
         // <div>
-        <div className="col-3">
+        <div className="col-3 shuffle">
             {/* Where does the onclick go? */}
-            <img alt={props.name} src={props.image} className="img-thumbnail" />
+            <img alt={props.name} src={props.image} className="img-thumbnail" onClick={() => props.handleShuffle(props.id, props.clicked)} />
         </div>
         // </div >
     );

@@ -4,7 +4,7 @@ import React from "react";
 function Header(props) {
     return (
         <header className="header">
-            <h1>Harry Potter Memory Game</h1>
+            <h1>Wanderlust Clicky Game</h1>
             <p>Score: {props.score}</p>
             <p>Top Score: {props.topScore}</p>
         </header>
