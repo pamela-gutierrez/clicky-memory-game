@@ -2,7 +2,8 @@
 
 This is a memory game built using React. Users can test their memory skills as they click on different travel images from around the world. The applciation is still in production but currently includes a sort feature everytime a picture is clicked. This is meant to make the game more challenging and really test the user's memory! In future, the application will also keep track of the which images the user has clicked to provide a score and eventually a top score also. 
 
-![Alt Text](clicky-game-screenshot.png)
+![Alt Text](clicky-memory-game/clicky-game-screenshot.png)
+
 
 
 ## Deployed Link
