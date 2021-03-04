@@ -27,7 +27,6 @@ class App extends Component {
 
   // This function will handle the onclicks and control functions once the images have been clicked. 
   handleShuffle = (id, click) => {
-    console.log("banana")
     const places = this.state.images;
     // If an image is clicked, the "clicked" state stays the same which is already set in the image.JSON as false.
     if (click === false) {
