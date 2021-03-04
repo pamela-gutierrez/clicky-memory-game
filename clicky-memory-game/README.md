@@ -55,8 +55,6 @@ function Header(props) {
     )
 }
 ```
-
-
 The snippet below demonstrates part of the shuffle function and how it corresponds with the image.json file. The if statement is checking the condition of "click" which is listed in the image.json as false. If the user clicks on an image with the corresponding click value of false, then it matches the image.json file and the user is rewarded with a point. If the user clicks on an image whose "clicked" value is true, then the game is over. 
 
 ```
