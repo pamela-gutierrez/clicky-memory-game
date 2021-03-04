@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/clicky-memory-game/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/clicky-memory-game/static/js/main.fd55b714.chunk.js",
-    "main.js.map": "/clicky-memory-game/static/js/main.fd55b714.chunk.js.map",
+    "main.js": "/clicky-memory-game/static/js/main.b1f2a950.chunk.js",
+    "main.js.map": "/clicky-memory-game/static/js/main.b1f2a950.chunk.js.map",
     "runtime-main.js": "/clicky-memory-game/static/js/runtime-main.bf0af022.js",
     "runtime-main.js.map": "/clicky-memory-game/static/js/runtime-main.bf0af022.js.map",
     "static/js/2.f3c1cfd6.chunk.js": "/clicky-memory-game/static/js/2.f3c1cfd6.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.bf0af022.js",
     "static/js/2.f3c1cfd6.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.fd55b714.chunk.js"
+    "static/js/main.b1f2a950.chunk.js"
   ]
 }
