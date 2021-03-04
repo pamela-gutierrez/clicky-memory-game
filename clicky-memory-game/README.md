@@ -41,7 +41,7 @@ render() {
     );
   }
 ```
-The Header component in the snippet below is receiving "props" which carries the information for the code above. 
+The Header component in the snippet below is receiving "props" which carries the information for the code above. The component also carries the styling and html elements that define how it appears on the page.
 
 ```
 function Header(props) {
